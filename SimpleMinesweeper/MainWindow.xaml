@@ -1,0 +1,8 @@
+﻿<Window x:Class="SimpleMinesweeper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Minesweeper" Height="450" Width="450">
+    <Grid>
+        <UniformGrid Name="MineGrid" Rows="10" Columns="10" />
+    </Grid>
+</Window>
